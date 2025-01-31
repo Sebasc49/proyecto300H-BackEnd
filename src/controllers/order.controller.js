@@ -1,7 +1,7 @@
 import { orderModel } from "../models/orderModel.js";
 
 
-//-----------------Peticion POST-------------------------
+//----------------- POST-------------------------
 
 export const postOrder = async (request, response) => {
 
@@ -22,7 +22,7 @@ export const postOrder = async (request, response) => {
 }
 
 
-//-----------------Peticion GET-------------------------
+//----------------- GET-------------------------
 export const getOrder = async (request, response) => {
 
   try {
@@ -47,7 +47,7 @@ export const getOrder = async (request, response) => {
 }
 
 
-//-----------------Peticion DELETE-------------------------
+//----------------- DELETE-------------------------
 export const deleteOrderById = async (request, response) => {
 
   try {
